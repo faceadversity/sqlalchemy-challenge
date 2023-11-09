@@ -14,8 +14,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
     3. Select only the "date" and "prcp" values.
     4. Load the query results into a Pandas DataFrame. Explicitly set the column names.
     5. Sort the DataFrame values by "date".
-    6. Plot the results by using the DataFrame plot method, as the following image shows:
-    ![precipitation](https://github.com/faceadversity/sqlalchemy-challenge/assets/137361966/69a001ea-a970-44b3-bf9b-10bb8a4169cf)
+    6. Plot the results by using the DataFrame plot method (image included in the repository for ref).
     7. Use Pandas to print the summary statistics for the precipitation data.
 ### Station Analysis
     1. Design a query to calculate the total number of stations in the dataset.
@@ -26,8 +25,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
     4. Design a query to get the previous 12 months of temperature observation (TOBS) data. To do so, complete the following steps:
             * Filter by the station that has the greatest number of observations.
             * Query the previous 12 months of TOBS data for that station.
-            * Plot the results as a histogram with bins=12, as the following image shows:
-            ![USC00519281_Temps](https://github.com/faceadversity/sqlalchemy-challenge/assets/137361966/acda5dd0-ecf6-4c94-b80c-7fdb10b64c7f)
+            * Plot the results as a histogram with bins=12 (image included in the repository for ref).
             * Close your session.
 ## Part 2: Design Your Climate App
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
